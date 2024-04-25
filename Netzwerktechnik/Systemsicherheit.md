@@ -9,6 +9,16 @@
     -Taxonomie Hardware: Bugs, Flaws, Backdoors
     -Taxonomie Software: Steal, Inhibit, Corrupt
 
+
+## Präventivmaßnahmen und Incidentmanagement
+
+- Social Engineering: Phishing, Pharming, Quid pro Quo, Tailgating, Honeytrap, Pretexting, On-Path Attack, Man in the Middle
+- Malware: Virus, Spyware, Worms, Ransomware, Trojaner, Adware, Scareware, Rootkit, Backdoor, Keylogging
+- Passwortangriff: Brute-Force, Passwort-Spraying, Dictionary-attack, Rainbow-Attack, Traffic-Interception
+- Gegenmaßnahmen: Netzwerkinspektion, Awareness- Training, Einschulungen, Real-Time Bedrohungserkennung, Monitorung and Logging, Spezialisierte Fachkurze, Physische und Logische Seperation von Services, Partitionierung des Firmen-Netzwerkes
+- 
+
+
 #### Nutzenfaktor
 Dieses Wissen hilft bei ...
 
