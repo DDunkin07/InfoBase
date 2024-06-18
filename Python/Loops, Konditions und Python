@@ -1,1 +1,115 @@
+# Konditionen
 
+Konditionen in Python steuern den Programmfluss basierend auf Wahrheitswerten. Sie verwenden if für die Bedingungsprüfung, elif für zusätzliche Bedingungen und else für den Standardfall. Diese Strukturen ermöglichen Entscheidungen und Verzweigungen im Code, indem sie bestimmte Codeblöcke nur ausführen, wenn die definierten Bedingungen erfüllt sind.
+
+Regenwurm = True
+if Regenwurm == True:
+    print("Es Regnet")
+
+Katze = True
+if Katze == True:
+    print("Meow")
+
+Mbappe = True
+if Mbappe == True:
+    print("Ninja Turtle")
+
+Danso = True
+if Danso == True:
+    print("Abwehrchef")
+
+Schulter = True
+if Schulter == True:
+    print("Mbappe Nase gebrochen")
+
+# Schleifen
+
+Schleifen in Python wiederholen Codeblöcke mehrmals, basierend auf Bedingungen. Die for-Schleife iteriert über Sequenzen wie Listen, Tupel und Strings. Die while-Schleife wiederholt, solange eine Bedingung wahr ist. Schleifen erleichtern das automatisierte Bearbeiten von Datenmengen und wiederholte Aufgaben im Code.
+
+Danso = 0
+
+for Danso in range(0, 4):
+    Danso = Danso +1
+    print("Danso", Danso)
+
+Griezmann = 0
+
+for Griezmann in range(0, 7):
+    Griezmann = Griezmann +1
+    print("Griezmann", Griezmann)
+
+Mwene = 0
+for Mwene in range(0, 16):
+    Mwene = Mwene +1
+    print("Mwene", Mwene)
+
+Kante = 0
+
+for Kante in range(0, 13):
+    Kante = Kante +1
+    print("Kante", Kante)
+
+Mbappe = 0
+
+for Mbappe in range(0, 10):
+    Mbappe = Mbappe +1
+    print("Mbappe", Mbappe)
+
+# Klassen
+
+Klassen in Python definieren benutzerdefinierte Datentypen, die Attribute und Methoden enthalten. Sie dienen als Baupläne für Objekte, ermöglichen die Erstellung von Instanzen und fördern die Wiederverwendbarkeit und Strukturierung des Codes. Klassen unterstützen Vererbung, Kapselung und Polymorphismus, was die objektorientierte Programmierung erleichtert.
+
+def my_function():
+    print("Hello from a function")
+
+    my_function()
+
+def Pivo_function(Pivo):
+    print(Pivo + " sa Cevapima")
+
+Pivo_function("Ozujsko")
+Pivo_function("Jelen")
+Pivo_function("Karlovacko")
+
+def Lepinja_function(Cevape):
+    print(Cevape + " sa Cevapima ")
+
+Lepinja_function("Ajvar")
+Lepinja_function("Luk")
+Lepinja_function("Kajmak")
+
+def Käse_function(Käse):
+    print(Käse + " mit Brot ")
+
+Käse_function ("Butter")
+Käse_function ("Nutella")
+Käse_function ("Zigaretten")
+
+def Scampi_function(Scampi):
+    print(Scampi + "mit Soße")
+
+Scampi_function (" Cocktailsauce ")
+Scampi_function (" Zitronen ")
+Scampi_function (" Salat ")
+
+# Objektorientierstes Programmieren
+
+Objektorientiertes Programmieren (OOP) ist ein Programmierparadigma, das auf Konzepten von Objekten und Klassen basiert. Eine Klasse ist ein Bauplan für Objekte, die Daten (Attribute) und Funktionen (Methoden) enthalten. OOP fördert die Modularität und Wiederverwendbarkeit des Codes durch Kapselung (Datenverbergen), Vererbung (Erben von Eigenschaften und Methoden) und Polymorphismus (verschiedene Implementierungen). Diese Prinzipien ermöglichen die Erstellung komplexer und wartbarer Software. Objekte interagieren miteinander durch Methodenaufrufe, wodurch das Programm eine strukturierte und intuitive Form erhält. OOP wird in vielen Programmiersprachen wie Python, Java und C++ verwendet, um effiziente und skalierbare Anwendungen zu entwickeln.
+
+## Vererbung
+
+Vererbung in OOP ermöglicht es einer Klasse, Eigenschaften und Methoden einer anderen Klasse zu übernehmen. Dies fördert Code-Wiederverwendung und Erweiterbarkeit, indem gemeinsame Funktionalitäten in einer Basisklasse definiert und von abgeleiteten Klassen wiederverwendet oder überschrieben werden können. Vererbung unterstützt hierarchische Klassendesigns.
+
+### Beispiele für Vererbung
+
+class Tier: (Oberklasse)
+class Hund(Tier): (Unterklasse erbt von Tier)
+class Katze(Tier): (Unterklasse erbt von Tier)
+
+## Polymorphismus
+
+Polymorphismus in OOP ermöglicht es, Methoden auf unterschiedliche Weise zu verwenden, basierend auf dem Objekttyp. Dies erlaubt einheitliche Schnittstellen für verschiedene Datentypen und Klassen, wodurch Methodenaufrufe automatisch die spezifische Implementierung der jeweiligen Klasse nutzen. Es fördert Flexibilität und Erweiterbarkeit im Code.
+
+Methodenüberschreibung: Eine Unterklasse definiert eine Methode der Oberklasse neu, um spezifisches Verhalten zu implementieren.
+Operatorüberladung: Der gleiche Operator (z.B. +) funktioniert unterschiedlich, je nachdem, welche Objekttypen er kombiniert (z.B. Zahlenaddition vs. String-Konkatenation).
+Interfaces: Verschiedene Klassen implementieren die gleichen Methoden einer gemeinsamen Schnittstelle, aber mit unterschiedlichen Funktionsweisen.
