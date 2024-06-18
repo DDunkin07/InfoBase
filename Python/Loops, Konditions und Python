@@ -2,21 +2,31 @@
 
 Konditionen in Python steuern den Programmfluss basierend auf Wahrheitswerten. Sie verwenden if für die Bedingungsprüfung, elif für zusätzliche Bedingungen und else für den Standardfall. Diese Strukturen ermöglichen Entscheidungen und Verzweigungen im Code, indem sie bestimmte Codeblöcke nur ausführen, wenn die definierten Bedingungen erfüllt sind.
 
+Wenn der Regenwurm da ist, regnet es
+
 Regenwurm = True
 if Regenwurm == True:
     print("Es Regnet")
+
+Wenn die Katze da ist, macht sie meow
 
 Katze = True
 if Katze == True:
     print("Meow")
 
+Wenn Mbappe da is, ist er eine Ninja Turtle
+
 Mbappe = True
 if Mbappe == True:
     print("Ninja Turtle")
 
+Wenn Danso da is, ist er der Abwehrchef
+
 Danso = True
 if Danso == True:
     print("Abwehrchef")
+
+Wenn die Schulter da ist, ist Mbappe's Nase gebrochen
 
 Schulter = True
 if Schulter == True:
